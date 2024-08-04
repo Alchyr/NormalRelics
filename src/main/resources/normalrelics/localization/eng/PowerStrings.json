@@ -1,0 +1,18 @@
+{
+  "${modID}:FreeSkillPower": {
+    "NAME": "Free Skill",
+    "DESCRIPTIONS": [
+      "Ignore energy cost on the next #ySkill you play.",
+      "Ignore energy cost on the next #b",
+      " #ySkills you play."
+    ]
+  },
+  "${modID}:FreePowerPower": {
+    "NAME": "Free Power",
+    "DESCRIPTIONS": [
+      "Ignore energy cost on the next #yPower you play.",
+      "Ignore energy cost on the next #b",
+      " #yPowers you play."
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "${modID}:DreamingStone": {
+    "NAME": "Dreaming Stone",
+    "FLAVOR": "Keep it under your pillow, and you might finally remember your dreams.",
+    "DESCRIPTIONS": [
+      "Every #b3 turns, use the top #b10 cards of your draw pile as your hand."
+    ]
+  },
+  "${modID}:VoiceBox": {
+    "NAME": "Voice Box",
+    "FLAVOR": "It records and repeats and records and repeats the sounds around the sounds around it.",
+    "DESCRIPTIONS": [
+      "Your cards are played in pairs. The second card will use the first card's damage and #yBlock."
+    ]
+  },
+  "${modID}:OwlCharm": {
+    "NAME": "Owl Charm",
+    "FLAVOR": "A sigil of those seeking a different form of power.",
+    "DESCRIPTIONS": [
+      "Whenever you draw a #yPower card, transform it into a random card and reduce its cost to #b0 for the combat."
+    ]
+  },
+  "${modID}:SockPuppet": {
+    "NAME": "Sock Puppet",
+    "FLAVOR": "His name is Lord Ultraviolence the Second.",
+    "DESCRIPTIONS": [
+      "Whenever you draw an #yUnplayable card, gain #b4 #yBlock."
+    ]
+  },
+  "${modID}:Placebo": {
+    "NAME": "Placebo",
+    "FLAVOR": "I swear, it really changes things.",
+    "DESCRIPTIONS": [
+      "Things will go better."
+    ]
+  },
+  "${modID}:CounterfeitCoin": {
+    "NAME": "Counterfeit Coin",
+    "FLAVOR": "Don't get it mixed up with the real thing.",
+    "DESCRIPTIONS": [
+      "At the start of combat, shuffle a copy of all your #yRare cards into your draw pile."
+    ]
+  },
+  "${modID}:BlessedLeaf": {
+    "NAME": "Blessed Leaf",
+    "FLAVOR": "A leaf of the sacred Lun Tree.",
+    "DESCRIPTIONS": [
+      "At the start of combat, deal #b2 damage to a random enemy for each #yAttack in your deck."
+    ]
+  },
+  "${modID}:SendingBell": {
+    "NAME": "Sending Bell",
+    "FLAVOR": "Ring it thrice, in memory of those you have seen away.",
+    "DESCRIPTIONS": [
+      "Combats drop an additional #rCurse card reward. Whenever you obtain a #rCurse, obtain a random relic.",
+      "Add a curse to your deck"
+    ]
+  },
+  "${modID}:AmuletFragment": {
+    "NAME": "Amulet Fragment",
+    "FLAVOR": "This tiny shattered fragment still glows with a faint light.",
+    "DESCRIPTIONS": [
+      "Whenever you remove a card from your deck, raise your Max HP by #b5."
+    ]
+  },
+  "${modID}:Scissors": {
+    "NAME": "Scissors",
+    "FLAVOR": "What a strange design for a weapon.",
+    "DESCRIPTIONS": [
+      "Your #yAttack cards deal additional damage equal to the number of other #yAttack cards in your hand."
+    ]
+  },
+  "${modID}:Triangle": {
+    "NAME": "Triangle",
+    "FLAVOR": "The most nuanced of instruments.",
+    "DESCRIPTIONS": [
+      "The first #yAttack, #ySkill, and #yPower card you play each combat cost #b0."
+    ]
+  },
+  "${modID}:Dirt": {
+    "NAME": "Dirt",
+    "FLAVOR": "Dirt",
+    "DESCRIPTIONS": [
+      "Your starter cards cost no [E] ."
+    ]
+  },
+  "${modID}:MiniPagoda": {
+    "NAME": "Miniature Pagoda",
+    "FLAVOR": "Nine is the limit; to go higher is defiance.",
+    "DESCRIPTIONS": [
+      "Gain [E] at the start of your turn. You cannot draw more than #b9 cards each turn."
+    ]
+  }
+}
