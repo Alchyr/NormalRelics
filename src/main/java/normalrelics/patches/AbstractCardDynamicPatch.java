@@ -220,12 +220,14 @@ public class AbstractCardDynamicPatch {
             if (methodName.equals("applyPowers")) {
                 if (method.getParameterTypes().length == 0) {
                     method.insertAfter(forceValues);
+                    changed = true;
                 }
             }
             else if (methodName.equals("calculateCardDamage")) {
                 CtClass[] params = method.getParameterTypes();
                 if (params.length == 1 && params[0].equals(abstractMonsterClass)) {
                     method.insertAfter(forceValues);
+                    changed = true;
                 }
             }
             else if (methodName.equals("canUse")) {

@@ -1,5 +1,7 @@
 package normalrelics.relics;
 
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+
 import static normalrelics.NormalRelics.makeID;
 
 public class Dirt extends BaseRelic {
@@ -10,6 +12,10 @@ public class Dirt extends BaseRelic {
 
     public Dirt() {
         super(ID, NAME, RARITY, SOUND);
+    }
+
+    public boolean canSpawn() {
+        return AbstractDungeon.actNum <= 1;
     }
 
     @Override
